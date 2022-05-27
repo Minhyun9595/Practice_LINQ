@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B5C76477-6C7D-48A0-AA8E-54F356ED5553}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Practice_LINQ</RootNamespace>
+    <AssemblyName>Practice_LINQ</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="02. Database\Database.cs" />
+    <Compile Include="01. Functions\Part_00_BaseKeyword\Function_BaseKeyword.cs" />
+    <Compile Include="01. Functions\Part_11_Cast\Function_Cast.cs" />
+    <Compile Include="01. Functions\Part_12_Connect\Function_Connect.cs" />
+    <Compile Include="01. Functions\Part_06_Data_Combine\Function_Data_Combine.cs" />
+    <Compile Include="01. Functions\Part_08_Data_Create\Function_Data_Create.cs" />
+    <Compile Include="01. Functions\Part_04_Data_Extraction\Function_Data_Extraction.cs" />
+    <Compile Include="01. Functions\Part_07_Data_Grouping\Function_Data_Grouping.cs" />
+    <Compile Include="01. Functions\Part_09_Equality\Function_Equality.cs" />
+    <Compile Include="01. Functions\Part_14_Filtering\Function_Filtering.cs" />
+    <Compile Include="01. Functions\Part_10_Index_Access\Function_Index_Access.cs" />
+    <Compile Include="01. Functions\Part_13_Math\Function_Math.cs" />
+    <Compile Include="01. Functions\Part_03_Quantity\Function_Quantity.cs" />
+    <Compile Include="01. Functions\Part_05_Data_Segmentation\Function_Data_Segmentation.cs" />
+    <Compile Include="01. Functions\Part_02_Set\Function_Set.cs" />
+    <Compile Include="01. Functions\Part_01_Sort\Function_Sort.cs" />
+    <Compile Include="00. Main\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="99. Default\App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
