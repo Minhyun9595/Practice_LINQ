@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="Practice_LINQ.Program">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>00. Main\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Practice_LINQ.DB">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>IABAQAkAgAAQgAAQEAiAACIIADAAAgADoAAAAIIgAQo=</HashCode>
+      <FileName>00. Main\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Practice_LINQ.Item" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAIAAEAIAAAAAAAAAEAAA=</HashCode>
+      <FileName>02. Database\Database.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Practice_LINQ.User">
+    <Position X="7.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAA=</HashCode>
+      <FileName>02. Database\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Practice_LINQ.School">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02. Database\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Practice_LINQ.WriteFunctionName">
+    <Position X="6.75" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>02. Database\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Practice_LINQ.ItemComparer" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>02. Database\Database.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

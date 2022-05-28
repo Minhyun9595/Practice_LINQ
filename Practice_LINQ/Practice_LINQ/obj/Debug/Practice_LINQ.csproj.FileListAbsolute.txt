@@ -4,3 +4,11 @@ C:\Users\Administrator.JUSIN-20180207Q\Documents\GitHub\Practice_LINQ\Practice_L
 C:\Users\Administrator.JUSIN-20180207Q\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\obj\Debug\Practice_LINQ.csprojResolveAssemblyReference.cache
 C:\Users\Administrator.JUSIN-20180207Q\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\obj\Debug\Practice_LINQ.exe
 C:\Users\Administrator.JUSIN-20180207Q\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\obj\Debug\Practice_LINQ.pdb
+C:\Users\givo2\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\bin\Debug\Practice_LINQ.exe.config
+C:\Users\givo2\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\bin\Debug\Practice_LINQ.exe
+C:\Users\givo2\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\bin\Debug\Practice_LINQ.pdb
+C:\Users\givo2\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\obj\Debug\Practice_LINQ.csproj.AssemblyReference.cache
+C:\Users\givo2\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\obj\Debug\Practice_LINQ.csproj.SuggestedBindingRedirects.cache
+C:\Users\givo2\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\obj\Debug\Practice_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\givo2\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\obj\Debug\Practice_LINQ.exe
+C:\Users\givo2\Documents\GitHub\Practice_LINQ\Practice_LINQ\Practice_LINQ\obj\Debug\Practice_LINQ.pdb

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
+
 namespace Practice_LINQ
 {
     //--------------------------------------------------------------------
@@ -14,103 +15,63 @@ namespace Practice_LINQ
     {
         static void Main(string[] args)
         {
-
             Console.ForegroundColor = ConsoleColor.White;
             DB db = new DB();
-            db.Function_Cast();
+
+            // 각 파트를 주석해제하고 Ctrl + F5를 통해 결과를 확인하세요.
+
+            ////  [00. BaseKeyword]
+            //db.Start_orderby();
+            //db.Start_Group();
+            //db.Start_School();
+            //db.Start_InnerJoin();
+            //db.Start_OutterJoin();
+            //
+            //
+            ////  [01. Sort]
+            //db.Function_Sort();
+            //
+            ////  [02. Set]
+            //db.Function_Set();
+            //
+            ////  [03. Quantity]
+            //db.Function_Quantity();
+            //
+            ////  [04. Extraction]
+            //db.Function_Extraction();
+            //
+            ////  [05. Segmentation]
+            //db.Function_Segmentation();
+            //
+            ////  [06. Combine]
+            //db.Function_Combine();
+            //
+            ////  [07. Grouping]
+            //db.Function_Grouping();
+            //
+            ////  [08. Create]
+            //db.Function_Create();
+            //
+            ////  [09. Equality]
+            //db.Function_Equality();
+            //
+            ////  [10. Index Access]
+            //db.Function_Index_Access();
+            //
+            ////  [11. Cast]
+            //db.Function_Cast();
+            //
+            ////  [12. Connect]
+            //db.Function_Connect();
+            //
+            ////  [13. Math]
+            //db.Function_Math();
+            //
+            ////  [14. Filtering]
+            //db.Function_Filtering();
 
 
             Console.WriteLine("\n\n\n\n\n\n\n");
         }
     }
-
-
-    //--------------------------------------------------------------------
-    // Class: DB
-    // Desc : partial을 통해 함수 구현을 하는 부분
-    //--------------------------------------------------------------------
-    public partial class DB
-    {
-        //  [테이블 선언]
-        IEnumerable<Item> _items;
-
-        //  [bool값 선언]
-        bool bCheck = false;
-
-        //  [Item 출력 함수]
-        public void Print_Items(IEnumerable<Item> _items, string str)
-        {
-            if((str.Contains("Original")))
-            {
-                Print_ColorString(str, ConsoleColor.Green);
-            }
-            else
-            {
-                Print_ColorString(str, ConsoleColor.Yellow);
-            }
-
-            if(null == _items || 0 == _items.Count())
-            {
-                Console.WriteLine("선택된 Item이 없습니다.");
-            }
-            else
-            {
-                foreach (Item _item in _items)
-                    _item.Print();
-            }
-            Console.WriteLine("");
-            Console.ForegroundColor = ConsoleColor.White;
-        }
-
-        //  [User 출력 함수]
-        public void Print_Users(IEnumerable<User> _users, string str)
-        {
-            if ((str.Contains("Original")))
-            {
-                Print_ColorString(str, ConsoleColor.Green);
-            }
-            else
-            {
-                Print_ColorString(str, ConsoleColor.Yellow);
-            }
-
-            if (null == _users || 0 == _users.Count())
-            {
-                Console.WriteLine("선택된 User가 없습니다.");
-            }
-            else
-            {
-                foreach (User _user in _users)
-                    _user.Print();
-            }
-            Console.WriteLine("");
-            Console.ForegroundColor = ConsoleColor.White;
-        }
-
-        public void Print_Boolean(string str, bool bState)
-        {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Write($"{str} : ");
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.Write($"{ bState.ToString()} \n\n");
-            Console.ForegroundColor = ConsoleColor.White;
-        }
-
-
-        //  [원본의 IEnumerable 반환]
-        public IEnumerable<T> Get_Original<T>(T[] _item)
-        {
-            return from item in _item
-                   select item;
-        }
-
-        //  [str을 color색으로 출력한 뒤 white로 색을 변경한다]
-        public void Print_ColorString(string str, ConsoleColor color)
-        {
-            Console.ForegroundColor = color;
-            Console.WriteLine($"─  {str}  ─".PadLeft(21 - (21 - str.Length >> 1)));
-            Console.ForegroundColor = ConsoleColor.White;
-        }
-    }
-
 }

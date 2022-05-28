@@ -13,7 +13,7 @@ namespace Practice_LINQ
         {
             WriteFunctionName.DoAnnouncement("LINQ 함수 - ## 정렬");
 
-            Print_Items(Get_Original(items), "[Original]");
+            Print_Items(Get_Original(items), "[Original - items]");
 
             //  [OrderBy]  : 오름차순 정렬
             _items = items.OrderBy(x => x.code);

@@ -8,10 +8,11 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Practice_LINQ</RootNamespace>
     <AssemblyName>Practice_LINQ</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -60,10 +61,13 @@
     <Compile Include="01. Functions\Part_02_Set\Function_Set.cs" />
     <Compile Include="01. Functions\Part_01_Sort\Function_Sort.cs" />
     <Compile Include="00. Main\Program.cs" />
+    <Compile Include="99. Default\Utility.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="99. Default\App.config" />
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
